@@ -1,0 +1,548 @@
+@font-face {
+	font-family: MyriadPro-Regular;
+    src: url(../fonts/MyriadPro-Regular.otf);
+}
+
+.body {
+	font-family: 'MyriadPro-Regular';
+}
+
+/*Nav Bar*/
+.firstsection {
+	background: url(../img/background.png) no-repeat;
+	height: 550px;
+}
+
+.container {
+	width: 950px !important;
+}
+
+.ulist {
+	color: #10bbb5 !important;
+	font-weight: bold !important;
+	font-size: 12px !important;
+	font-family: 'MyriadPro-Regular';
+}
+
+
+.nav > li > a {
+	color: white;
+	font-size: 12px;
+	font-family: 'MyriadPro-Regular';
+	font-weight: bold;
+}
+
+/*Intro*/
+.intro > h1 {
+	color: white;
+	text-align: center;
+	font-family: 'MyriadPro-Regular';
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.intro > h1:after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 60px;
+	background: #10bbb5;
+	margin: 20px auto;
+}
+
+.introp {
+	color: white;
+	font-size: 14px;
+	line-height: 25px;
+	font-family: 'MyriadPro-Regular';
+	text-align: justify;
+	text-align-last: center;
+}
+
+.button1 {
+	color: #00e0d0;
+    text-decoration: none;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    background: transparent;
+    border: 1.5px solid #00e0d0;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.buttona {
+	color: #00e0d0;
+}
+
+.firstbutton {
+	text-align: center;
+	padding-top: 40px; 
+}
+
+.carousel > li > .active {
+	background-color: #00e0d0;
+}
+
+
+/*First Section*/
+.toppad {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.img1 {
+	padding-left: 60px;
+}
+
+.ourstory {
+	color: #66636d;
+	font-family: 'MyriadPro-Regular';
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 15px;
+}
+
+.ourstoryp {
+	color: #817f86;
+	font-size: 14px;
+	font-family: 'MyriadPro-Regular';
+	padding-bottom: 15px;
+}
+
+/*Second Section*/
+.watchourstory {
+	text-align: center;
+	background-image: url(../img/background2.png);
+	height: 450px;
+	align-items: center;
+}
+
+.woursp {
+	color: white;
+	font-family: 'MyriadPro-Regular';
+	font-size: 20px;
+	align-items: center;
+	padding-top: 220px;
+}
+
+.iconcircle {
+  position: relative;
+  top: 200px !important;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: lighter;
+  line-height: 1;
+  font-size: 85px;
+  color: white;
+}
+
+/*Third Section*/
+
+.sectionthird {
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+
+.thirdsection {
+	padding-bottom: 25px;
+}
+
+.thirdsection > p:after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 60px;
+	background: #c6c4c9;
+	margin: 20px auto;
+}
+
+.thirdsectionh2 {
+	color: #66636d;
+	font-size: 20px;
+}
+
+.thirdsectionp {
+	color: #78777b;
+}
+
+.iconthirdsection {
+	font-size: 50px;
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(.5, #00e0d0), color-stop(1, #49a4cc));
+    background-image: gradient(linear, left top, right top, color-stop(0.5, #00e0d0), color-stop(1, #49a4cc));
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text; /*icons*/
+}
+
+.hthirdsection {
+	font-size: 16px;
+	color: #413d4b; /*h2*/
+}
+
+.pthirdsection {
+	font-size: 14px;
+	color: #7a7a7a; /*textp*/
+}
+
+.firstow {
+	border-right: 1px solid #c6c4c9;
+	border-bottom: 1px solid #c6c4c9;
+}
+
+.secondow {
+	border-bottom: 1px solid #c6c4c9;
+}
+
+.thirdow {
+	border-right: 1px solid #c6c4c9;
+	padding-top: 30px;
+}
+
+.fourthow {
+	padding-top: 30px;
+}
+
+/*Fourth Section*/
+
+.fourthsection {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	background-image: url(../img/background3.png);
+}
+
+.foseh {
+	font-size: 20px;
+	color: white;
+}
+
+.fosep {
+	color: white;
+}
+
+.fosep:after {
+	display: block;
+	content: "";
+	height: 2px;
+	width: 60px;
+	background: #c6c4c9;
+	margin: 20px auto;
+}
+
+.fsimg {
+	width: 150px;
+	height: 190px;
+}
+
+.fosh {
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	letter-spacing: 2px;
+}
+
+.fop {
+	color: white;
+	font-size: 12px;
+	letter-spacing: 1px;
+}
+
+.foruths {
+	padding-bottom: 20px;
+}
+
+.secfor {
+	border: 1px solid white;
+	width: 153px;
+}
+
+.fssecondp {
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.button2 {
+	color: #00e0d0;
+    text-decoration: none;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    background: transparent;
+    border: 1.5px solid #00e0d0;
+    padding: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/*Fifth Section*/
+
+.fifthsection {
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.fifthsec {
+	color: #413d4b;
+}
+
+.fifthh {
+	font-size: 20px;
+	margin-top: 0 !important;
+	margin-bottom: 40px;
+}
+
+.fifthrow {
+	width: 100%;
+	margin-right: 0px !important;
+	margin-left: 0px !important;
+}
+
+.sfimg {
+	width: 225px;
+	height: 200px;
+	margin-right: -3px;
+	padding-right: 0;
+} 
+
+.fifthcol {
+	width: 100%;
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.buttonni {
+	padding: 40px;
+}
+
+/*Sixth Section*/
+
+.sixthsection {
+	padding-top: 30px;
+	background-image: url(../img/background4.png);
+}
+
+.sixsec {
+	padding-bottom: 15px;
+}
+
+.firstline {
+	font-size: 100px;
+	color: white;
+}
+
+.sixthpara {
+	color: white;
+	text-align: center;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+
+.sixsix {
+	font-size: 20px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.sixsection {
+	font-size: 14px;
+	color: white;
+	letter-spacing: 1px;
+}
+
+.siximg {
+	width: 70px;
+	height: 50px;
+	border-radius: 30px;
+	background-color: white;
+}
+
+.img-responsive {
+	display: inline !important;
+}
+
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+
+/*Seventh Section*/
+
+.seventhtext {
+	color: 413d4b;
+	font-size: 20px;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px !important;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 15px !important;
+	padding: 10px;
+}
+
+.button3 {
+	color: #00e0d0;
+    text-decoration: none;
+    font-size: 12px !important;
+    border-radius: 0 !important;
+    background: transparent;
+    border: 1.5px solid #00e0d0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sevimg {
+	width: 100px;
+	height: 60px;
+	margin-bottom: 20px;
+}
+
+.sevimg1 {
+	width: 100px;
+	height: 30px;
+	margin-bottom: 20px;
+}
+
+.sevimg2 {
+	width: 100px;
+	height: 90px;
+}
+
+/*Footer*/
+.footer {
+	background-image: url(../img/background5.png);
+	padding-top: 50px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+}
+
+.f_textcolor {
+	color: white;
+}
+
+.f_para {
+	font-size: 20px;
+}
+
+.f_textarea {
+	background: transparent;
+	width: 200px;
+}
+
+.f_padd {
+	padding-bottom: 20px;
+}
+
+.f_padding {
+	padding-bottom: 40px;
+}
+
+.f_pa {
+	padding-bottom: 47px;
+}
+
+.f_icon {
+	background: transparent;
+	border-radius: 50%;
+	border: 1px solid white;
+	padding: 8px;
+	margin-right: 5px;
+}
+
+.f_padr {
+	padding-right: 15px;
+}
+
+.f_div {
+	display: inline-flex;
+}
+
+.f_glyphicon {
+	top: -25px !important;
+	background-color: #9e96b0;
+	padding: 9px 20px; 
+	font-size: 23px;
+	margin-left: 8px;
+}
+
+@media only screen and (min-width: 480px) and (max-width:320px) {
+	.body {
+		width: 100%;
+		display: block !important;
+	}
+
+	.footer {
+		width: 80%;
+		display: block !important;
+	}
+
+	.f_padding {
+		width: 10%;
+		display: block !important;
+	}
+}
+
+@media only screen and (min-width:321px) and (max-width:768px) {
+    /* For tablets: */
+    .body {
+		width: 100%;
+		display: block !important;
+	}
+
+	.footer {
+		width: 80%;
+		display: block !important;
+	}
+
+	.f_padding {
+		width: 10%;
+		display: block !important;
+	}
+}
